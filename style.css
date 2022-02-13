@@ -18,9 +18,28 @@ h3 {
 }
 
 ::placeholder {
-  color: purple;
+  color: hotpink;
+  background-color:aquamarine;
 }
 
 input:focus {
     background-color: aquamarine;
+    outline-color: aquamarine;
+}
+
+input {
+    outline-color: aquamarine;
+    color: hotpink;
+    border: 0px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+#tunes {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
