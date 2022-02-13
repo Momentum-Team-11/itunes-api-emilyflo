@@ -1,0 +1,26 @@
+h1 {
+  font-family: "Pacifico";
+  color: aquamarine;
+  text-align: center;
+  background-color: black;
+}
+
+header {
+  border-width: 2em;
+}
+
+/* body {
+    background-color: black;
+} */
+
+h3 {
+  font-family: "Pacifico";
+}
+
+::placeholder {
+  color: purple;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
