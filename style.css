@@ -1,0 +1,66 @@
+header {
+  border-width: 4em;
+  font-family: "Pacifico";
+  color: aquamarine;
+  text-align: center;
+  background-color: black;
+  font-size: 50pt;
+  margin-bottom: 10pt;
+  border-radius: 10px;
+}
+
+body {
+    background-color: aquamarine;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+::placeholder {
+  color: black;
+  background-color:white;
+}
+
+input:focus {
+    background-color: white;
+    outline-color: black;
+}
+
+input {
+    outline-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    font-size: 14pt;
+    font-family: "helvetica;
+    align-content: center;
+}
+
+button {
+    font-size: 14pt;
+    font-family: "Pacifico";
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#tunes {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: space-around;
+    align-items: center space-around;
+    font-family: helvetica;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 15px;
+}
+
+audio {
+    width: 1fr;
+}
+
+.musicBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

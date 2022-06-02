@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/083f5b41d0.js" crossorigin="anonymous"></script>
   <script src="main.js" defer></script>
-  <title>Music Search</title>
+  <title>Music Box</title>
 </head>
+
 <body>
+  <header> Music   <i class="fa-solid fa-record-vinyl"></i>   Box</header>
+  <form action="" method="get" class="musicBox" id="search-box">
+        <div class="musicBox">
+          <label for="search-box"></label>
+          <input type="text" name="searchBox" id="search" required maxlength="50"
+          minlength="1" placeholder="Find a band or artist" btn>
+        </div>
+        <div class="music-box">
+          <button type="submit">search iTunes</button>
+        </div>
+    </form><br>
+    <div id="tunes"></div>
 </body>
 </html>
